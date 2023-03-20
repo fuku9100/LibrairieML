@@ -1,0 +1,50 @@
+/* Acceuil.html */
+.ulacc {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.liaac {
+  float: left;
+}
+
+.liaac a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.liaac a:hover {
+  background-color: #111;
+}
+
+.liaac {
+  border-right: 1px solid #bbb;
+}
+
+.liaac:last-child {
+  border-right: none;
+}
+
+.ulacc {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Inscription.php */
+
+.ulco {
+  list-style-type: none;
+  display: inline-grid;
+}
+
+lico {
+
+  line-height: 1.5;
+}
