@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>LibrairieML</title>
+   <?php include 'header.php';?>
 </head>
+
 <body>
     <h1>Veuillez vous connectez</h1>
-    <li class=lico><input type="email" name="mdp" placeholder="Adresse E-mail"></li> 
+    <input type="email" name="mdp" placeholder="Adresse E-mail"></li> 
     <br>
-    <li class=lico><input type="password" name="mail" placeholder="Mot de Passe"></li>
+   <input type="password" name="mail" placeholder="Mot de Passe"></li>
     <br>
-   <?php if(isset($_POST['login'])) {
+   <?php if(isset($_POST['users'])) {
   $email = $_POST['email'];
   $mot_de_passe = $_POST['mot_de_passe'];
 
@@ -29,7 +31,7 @@
       session_start();
       $_SESSION['user_id'] = $row['id'];
       $_SESSION['nom'] = $row['nom'];
-      header("Location: index.php");
+      header("Location: accueil.php");
     } else {
       echo "Le mot de passe est incorrect.";
     }
