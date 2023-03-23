@@ -15,8 +15,10 @@ include 'header.php';?>
   
     <img class="logo" src="Librairie ML.png" alt="">
 	<br>
+    <div class="outil"></div>
     <input type="text" placeholder="Rechercher" class="search">
     <button class="submit" type="submit">OK</button>
+    
     <div class="books"></div>
 
 </body>
