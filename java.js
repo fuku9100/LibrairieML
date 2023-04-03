@@ -47,9 +47,9 @@ function get_title() {
                             </div>
                             <div class="book-details">
                                 <h2 class="book-title">${bookTitle}</h2>
-                                <p class="book-author">${bookAuthor}</p>
-                                <p class="book-description">${bookDescription}</p>
+                                <p class="book-author">${bookAuthor}</p> 
                                 <a href="${bookInfoLink}" class="book-link" target="_blank">En savoir plus</a>
+                                <button>ajouter</button>
                                
                             </div>
                         </div>

@@ -35,7 +35,7 @@
 <nav>
 		<a href="accueil.php">Accueil</a>
 		<a href="inscription.php">Inscription</a>
-		<a href="connection.php">Connection</a>
+		<a href="connexion.php">Connection</a>
     </nav>   
 </body>
 </html>

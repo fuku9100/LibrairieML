@@ -8,12 +8,13 @@
    
 </head>
 <body>
+    
 <?php 
 
 // index.php file
 include 'header.php';?>
   
-    <img class="logo" src="Librairie ML.png" alt="">
+    <img class="logo" src="Librairie_ML.png" alt="">
 	<br>
     <div class="outil"></div>
     <input type="text" placeholder="Rechercher" class="search">
